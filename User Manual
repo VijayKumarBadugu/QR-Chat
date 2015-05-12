@@ -1,0 +1,32 @@
+User Manual:
+1)Load the application in two phones which have front Camera.
+2)Click on QRChat Application in Android menu.
+3)You find main screen for QRChat Application.You will find four buttons namely
+	a)Receive Data
+	b)Send Data
+	c)Send Picture
+	d)Send Contact
+
+A)How to send Text Data by QR code?
+	1)Click Send Data in the Main menu of QRChat.
+	2)Now you find a field where you can give the text data as input.
+	3)Click "Generate QR Code" after entering the data.
+	4)Position two phones such that they are able to scan the QR of the other phone
+
+B)How to Receive Data by QR code?
+	1)Click Receive Data in the Main menu of QRChat.
+	2)Now your phone acts as a receiver and captures the QR codes that are displayed.
+
+C)How to  Send Picture by QR code?
+	1)Click Send Picture in the Main menu of QRChat.
+	2)A new screen comes up and click on "Load Picture" to select the picture from gallery
+	3)This application can only send pictures of PNG format
+	4)The application will split image data into string and transmits a chunk of string as QR
+
+D)How to Send Contact by QR code?
+	1)Click Send Contact in the Main menu of QRChat.
+	2)A new screen comes up and fill in the contact details
+	3)Now click DisplayQR
+	
+	
+

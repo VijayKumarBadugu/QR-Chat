@@ -1,0 +1,20 @@
+QRChat folder contains the source code for the Android Application.
+
+How to run the Android Application in Android Studio:
+
+1)Download and install Android Studio from https://developer.android.com/sdk/index.html.
+
+2)Unzip this folder.
+
+3)Open android studio and import "QRChat" project from this folder.
+
+4)Make sure your device has front camera with good auto focus so that this application works .
+
+5)Connect your android phone and click "Run app" or "Shift+F10" to run the Android application.
+
+6)You need two phones with front cameras to make communication.
+
+7)Two phones should be placed such that front camera face each other.
+
+8)When communication start make sure that QR code is in the scanning rectangular box.
+

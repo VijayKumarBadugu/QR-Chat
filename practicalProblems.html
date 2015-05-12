@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Index Page</title>
+</head>
+
+<style type="text/css">
+a:link {
+    color:#0000FF;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:#800080;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:active {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+.projectTitle 
+{
+	font-size: 25px;
+	text-align: center;
+	color: black;
+}
+.projectName 
+{
+	font-size: 20px;
+	text-align: left;
+	color: black;
+}
+.headings 
+{
+	text-align: left;
+	font-size:20px;
+	color: black;
+}
+.description
+{
+	text-indent: 5em;
+	text-align: justify;
+	font-size: 15px;
+	color: black
+}
+.list
+{
+	text-align: left
+	font-size: 15px
+	color: black	
+}
+</style>
+
+<body bgcolor="#E0FFE0">
+
+<p class="headings"><b>Practical Problems:</b></p>
+<p class="description">
+<p>
+The following are some of the important hurdles that we faced during the project completion.
+<b>1) Opening front camera for scanning </b> 
+<li>We found a link in stackoverflow which helped us solve this: http://stackoverflow.com/questions/2779002/how-to-open-front-camera-on-android-platform. </li>
+<br>
+<b>2)Autofocus not available for front cameras</b>
+<li>This makes it difficult to process the images to get the QR codes and so the throughput will be less and the orientation should be perfect. Changing the distance will result
+in losing the feedback.</li>
+<br>
+<b>3) Feedback for Synchronization</b>
+<li>The major problem we faced was ensuring synchronization between the two devices and provisioning a
+two way feedback. If a time based approach without feedback is used in which the sender waits for a
+predetermined amount of time, even if the receiver fails to decode one of the QR codes correctly, the
+sender moves on to the next one which results in the loss of a word or a sentence. A feedback was
+considered necessary for reliable communication even though its negative effects on the overall
+throughput were foreseen.</li>
+<br>
+<b>4) Displaying image on the SurfaceView while displaying camera</b> 
+<li>Initially, we tried using fragments but it was difficult. So, we just used an ImageView and set the visibility based on the availability of data.</li> 
+<br>
+<b>5) Orientation </b>
+<li>The orientation between both the phones is still a major concern, as the camera of one phone has to focus on the QR displayed by the other phone, while at the same time being oriented properly for latter. We could have acoided by chaging the position of the views for the sender and receiver such that QR is displayed on the bottom for the sender and scanning happens from the top, while QR is displayed at the top for receiver and scanning happens at the bottom part of the  screen. We did not make use of this concecpt as we used the same module for sender and receiver with flag bit to indicate the current state and act accordingly without changes in the layout</li>
+
+<p>
+</p>
+<ul>
+
+</ul>
+<p>
+<a href="index.html">Back to Index</a>
+</p>

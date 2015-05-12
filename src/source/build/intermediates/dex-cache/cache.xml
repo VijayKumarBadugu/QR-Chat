@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/vijay/AndroidStudioProjects/AndroidQuickResponseCode1/app/libs/core.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="69ab751723c7f7c8a01fddb1d169a93160fadca7">
+        <dex dex="/home/vijay/AndroidStudioProjects/AndroidQuickResponseCode1/app/build/intermediates/pre-dexed/debug/core-5e23c13ebd8608c3afa5f5911a1d88dc02a8bad2.jar" />
+    </item>
+    <item
+        jar="/home/vijay/AndroidStudioProjects/AndroidQuickResponseCode1/app/libs/android-support-4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fcbf4461f540d9e6f19cb94b3b3e8207e42f9a71">
+        <dex dex="/home/vijay/AndroidStudioProjects/AndroidQuickResponseCode1/app/build/intermediates/pre-dexed/debug/android-support-4.0-a8b7bf4ed3f5a661f9e997c1282eb2f3584b5b23.jar" />
+    </item>
+
+</items>

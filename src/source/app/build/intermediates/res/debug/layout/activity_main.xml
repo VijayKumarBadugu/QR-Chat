@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/encode_view"
+    tools:context="com.jwetherell.QRComm575.result.MainActivity">
+
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Receive Data"
+        android:id="@+id/button"
+        android:layout_marginTop="20dp"
+        android:onClick="callCaptureQR"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Send Data"
+        android:id="@+id/button2"
+        android:onClick="callEncodeQR"
+        android:layout_above="@+id/button3"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:onClick="sendPicture"
+        android:text="Send Picture"
+        android:id="@+id/button3"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="60dp"
+        android:layout_alignLeft="@+id/button2" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Send Contact"
+        android:id="@+id/button4"
+        android:onClick="sendContact"
+        android:gravity="bottom"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button3" />
+
+</RelativeLayout>
+<!-- From: file:/home/vijay/AndroidStudioProjects/AndroidQuickResponseCode1/app/src/main/res/layout/activity_main.xml -->

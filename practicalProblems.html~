@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>practicalProblems</title>
+</head>
+
+<style type="text/css">
+a:link {
+    color:#0000FF;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:#800080;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:active {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+.projectTitle 
+{
+	font-size: 25px;
+	text-align: center;
+	color: black;
+}
+.projectName 
+{
+	font-size: 20px;
+	text-align: left;
+	color: black;
+}
+.headings 
+{
+	text-align: left;
+	font-size:20px;
+	color: black;
+}
+.description
+{
+	text-indent: 5em;
+	text-align: justify;
+	font-size: 15px;
+	color: black
+}
+.list
+{
+	text-align: left
+	font-size: 15px
+	color: black	
+}
+</style>
+
+<body bgcolor="#E0FFE0">
+
+<p class="headings"><b>Practical Problems:</b></p>
+<p class="description">
+The following are some of the important hurdles that we faced during the project completion.
+<p>
+1) Opening front camera for scanning. <li>We found a link in stackoverflow which helped us solve this: http://stackoverflow.com/questions/2779002/how-to-open-front-camera-on-android-platform. </li>
+<br>
+2)Autofocus not available for front cameras.  
+<li>This makes it difficult to process the images to get the QR codes and so the throughput will be less and the orientation should be perfect. Changing the distance will result
+in losing the feedback.</li>
+<br>
+3) Orientation for both phones to have feedback.
+<li>This is still a problem and only through practice we were able to send data.</li>
+<br>
+4) Displaying image on the SurfaceView while displaying camera. 
+<li>Initially, we tried using fragments but it was difficult. So, we just used an ImageView and set the visibility based on the availability of data.</li> 
+<br>
+<p>
+</p>
+<ul>
+
+</ul>
+<p>
+<a href="index.html">Back to Index</a>
+</p>

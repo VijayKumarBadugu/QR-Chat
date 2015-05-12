@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Index Page</title>
+</head>
+
+<style type="text/css">
+a:link {
+    color:#0000FF;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:#800080;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+a:active {
+    color:#ff0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+.projectTitle 
+{
+	font-size: 25px;
+	text-align: center;
+	color: black;
+}
+.projectName 
+{
+	font-size: 20px;
+	text-align: left;
+	color: black;
+}
+.headings 
+{
+	text-align: left;
+	font-size:20px;
+	color: black;
+}
+.description
+{
+	text-indent: 5em;
+	text-align: justify;
+	font-size: 15px;
+	color: black
+}
+.list
+{
+	text-align: left
+	font-size: 15px
+	color: black	
+}
+</style>
+
+<body bgcolor="#E0FFE0">
+
+<p class="headings"><b>Readme:</b></p>
+<p class="description">
+QRChat folder contains the source code for the Android Application.
+<p>
+<li>1)Download and install Android Studio from https://developer.android.com/sdk/index.html.</li>
+<br>
+<li>2)Unzip this folder.</li>
+<br>
+<li>3)Open android studio and import "source" project from ./src.</li>
+<br>
+<li>4)Make sure your device has front camera with good auto focus so that this application works .</li>
+<br>
+<li>5)Connect your android phone and click "Run app" or "Shift+F10" to run the Android application.</li>
+<br>
+<li>6)You need two phones with front cameras to make communication.</li>
+<br>
+<li>7)Two phones should be placed such that front camera face each other.</li>
+<br>
+<li>8)When communication start make sure that QR code is in the scanning rectangular box.</li>
+<br>
+<p>
+</p>
+<ul>
+
+</ul>
+<p>
+<a href="index.html">Back to Index</a>
+</p>
